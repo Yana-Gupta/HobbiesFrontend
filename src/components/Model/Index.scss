@@ -1,0 +1,21 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-self: center;
+    margin: auto;
+    .form-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+    }
+    .input{
+        margin: 5px 3px;
+    }
+}
+
+#hobbies{
+    padding: 12px 6px;
+}
