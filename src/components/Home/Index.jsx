@@ -42,7 +42,7 @@ function Home() {
           .then(data => setItems(data))
           .catch(err => console.log(err))
       }
-    , [])
+    , [items])
 
   async function deleteOne(item) {
     axios.delete(URL,
